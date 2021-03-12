@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontrola uszkodzenia pasa</title>
+</head>
+<body>
+    <div class = 'container-fluid'>
+      <main class='mainedit'>
+        <p class='baneredit'>Edycja zdjęć uszkodzeń pasa bufora</p>
+        <div class='row'>
+          <div class='col-6'>
+              <div class="imgarea mt-4">
+                <img src = "/fotka/0">
+              </div>
+          </div>
+          <div class='col-6 editbtns'>
+            <p id='imgcount'></p>
+            <button type="button" class="btn btn-success mt-4 btn-lg editbtn" onclick="location.href='/edycja'">ZAPISZ ZDJĘCIE</button>
+            <button type="button" class="btn btn-danger mt-4 btn-lg editbtn" onclick="location.href='/kasowanie'">KASUJ ZDJĘCIE</button>
+            <button type="button" class="btn btn-primary mt-4 btn-lg editbtn" onclick="location.href='/'">POWRÓT</button>             
+          </div>
+          <span class='c0l-12 footer'>Sprawdź zdjęcie. Jeśli widoczne jest uszkodzenie kliknij 'ZAPISZ ZDJĘCIE'. Jeśli zdjęcie jest błędne, lub brak na nim widocznych uszkodzeń kliknij 'KASUJ ZDJĘCIE'</span>
+        </div>
+        </div>
+      </main>
+    </div>   
+
+    <script src="/js/jquery.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+    <script src="edycja.js"></script>
+</body>
+</html>

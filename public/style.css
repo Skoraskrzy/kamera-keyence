@@ -1,10 +1,43 @@
-.baner{
+.baner{    
+    width: 800px;
     text-align: center;
     font-size: 40px;
-    background-color: lightgreen;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .imgarea{
     text-align: center;
+}
+.boczny{
+    text-align: center;
+}
+.menubtn{
+    width: 90%;
+    height: 80px;
+}
+.info{
+    color: darkblue;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.editbtn{
+    width: 80%;
+}
+.baneredit{
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+}
+.footer{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+body{
+    background-color: lightgray;
+}
+#imgcount{
+    font-size: 25px;
+    color: darkred;
 }

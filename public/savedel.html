@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontrola uszkodzenia pasa</title>
+  </head>
+  <body>
+      <div class="container - fluid">          
+        <p class='baneredit col-12 mb-5'>Zapisywanie zdjęcia uszkodenia</p>
+        <div class="row">
+            <div class='col-6'>
+                <figure class="figure">
+                    <img src="/fotka/0" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Zdjęcie uszkodzenia bufora</figcaption>
+                </figure>
+            </div>
+            <div class='col-6'>
+                    <div class="card">
+                        <div class="card-header">
+                        Zapis zdjęcia
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Zdjęcie uszkodzenia pasa</h5>
+                        <p class="card-text">Zapisując zdjęcie potwierdzasz, że widoczne jest uszkodzenie elementu pasa. Obowiązkowo należy wystawić zlecenie naprawy na kolejny przegląd (sprawdzenie uszkodzeń pasa bufora).</p>                        
+                        <button type="button" class="btn btn-success btn-lg" onclick="zapiszimg()">Zapisz zdjęcie</button>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+      </div>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+    <script src="ng.js"></script>
+  </body>
+</html>

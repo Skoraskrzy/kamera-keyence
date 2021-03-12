@@ -14,17 +14,19 @@
       <div class="container - fluid">          
           <main class="mainview">
             <div class="row">
-              <span style="background-color:lightgreen;" class="baner col-12">Brak uszkodzeń łańcucha na buforze</span>              
+              <span style="background-color:red;" class="baner col-12 mb-5">Wykryto uszkodzenie pasa bufora</span>              
                   <div class="col-6">
                     <div class="imgarea mt-4">
-                        <img src="img1/jti1.png">
-                        <h1 mt-3>BUFOR MP09</h1>
+                        <img src = "/fotka/0">
                     </div>
                   </div>
                   <div class="col-6 boczny">
-                    <button type="button" class="btn btn-success mt-4 btn-lg menubtn" onclick="location.href='/menu'">MENU</button>
-                    <hr class = "mt-4 mb-1">
-                    <img class="mt-1" src="img1/red_tigers.jpg">                     
+                    <div class="info" id="divMsg">
+                        <p>W pamięci znajdują się zdjęcia uszkodzeń</p>
+                    </div>
+                    <hr class = "mt-3 mb-3">
+                    <p>Przejdż do edycji zdjęć aby sprawdzić czy są uszkodzenia na pasie. Zapisz zdjęcie gdy widoczne jest uszkodzenie.</p>
+                    <button type="button" class="btn btn-success mt-3 btn-lg editbtn" onclick="location.href='edycja.html'">EDYCJA ZDJĘĆ</button>';                     
                   </div>
               </div>
           </main>
@@ -32,6 +34,6 @@
       </div>
       <script src="/js/jquery.min.js"></script>
       <script src="/js/bootstrap.min.js"></script>
-    <script src="ok.js"></script>
+    <script src="ng.js"></script>
   </body>
 </html>

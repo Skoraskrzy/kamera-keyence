@@ -79,7 +79,7 @@ function keyence(app){
                     emaildelcounter = 0;
                                     
                 } else {
-                        emaildelcounter = emailcounter + 1;
+                        savecounter = savecounter + 1;
                         savecounter = files.length;
 
                         if(emaildelcounter ===1){
